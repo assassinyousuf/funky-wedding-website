@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Biye kobe korben — Rion vaaai</title>
+    <meta name="description" content="Simple three-step flow: identity check, wedding question, and date submission." />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <h1 class="brand">Biye kobe korben — Rion vaaai</h1>
+      </div>
+    </header>
+
+    <main class="page">
+      <section class="hero container">
+        <h2 class="hero-title">A tiny, private page</h2>
+        <p class="hero-sub">Answer a couple of short questions to share your wedding date.</p>
+
+        <div class="flow-card">
+          <div id="flow-step" class="flow-step" data-step="1">
+            <!-- content injected by JS -->
+          </div>
+        </div>
+
+        <!-- lively background will animate behind content -->
+      </section>
+    </main>
+
+    <!-- termination overlay (shown when user answers No to identity) -->
+    <div id="terminated" class="overlay hidden" role="dialog" aria-hidden="true">
+      <div class="overlay-card">
+        <h2>Access terminated</h2>
+        <p>This site is private. If you're not <strong>Adil Mohammad Rion</strong>, you cannot continue.</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
